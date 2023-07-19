@@ -1,16 +1,21 @@
-include "main.h"
+#include "main.h"
+
 /**
- * main- Entry point
- * Description: Print lowercase and uppercase
- * Return: Always 0
+ * print_alphabet - Entry point
+ * Return:0
  */
+
 void print_alphabet(void)
 {
-	int i;
-	for(i = 97; i<= 122; i++)
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		_putchar(i);
+		_putchar(c);
+		c++;
+
 	}
-	putchar('\n');
+	_putchar('\n');
+
 }
 
