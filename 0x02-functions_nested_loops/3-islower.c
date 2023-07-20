@@ -2,7 +2,8 @@
 /**
  * main- Entry point
  * Description: Print lowercase and uppercase
- * Return: Always 0
+ * Return: 1 f is_ower and 0 else
+ * @c: The caracter is ASCII code
  */
 int _islower(int c)
 {
