@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main- Entry point
- * Description: Print lowercase and uppercase
- * Return: 1 f is_ower and 0 else
+ * islower - Shows 1 if the input is a 
+ * lowercase character. Another case, shows 
+ * 0
  * @c: The caracter is ASCII code
+ * Return: 1 for lowercase character. 0 for the rest
  */
 int _islower(int c)
 {
