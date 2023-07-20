@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * main- Entry point
- * Description: Print lowercase and uppercase
- * c: The chacacter in ASCII code.
- * Return: Always 0
+ * 
+ * Description: Print lowercase 
+ *
+ * @c: The chacacter in ASCII code.
+ *
+ * Return: 1 if lowercase 0 rest
  */
 int _islower(int c)
 {
